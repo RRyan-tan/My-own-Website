@@ -4,3 +4,36 @@
     font-size: 100px;
     text-shadow: 10px;
 }
+.catchphrase {
+  font-size: 16px;
+  color: #b8956a;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  z-index: 1;
+}
+.title-dark {
+  color: #d4872b;
+  font-style: italic;
+  font-size: 80px;
+  text-shadow: 
+    -2px -2px 0 #ff0000,
+    2px -2px 0 #ffa500,
+    -2px 2px 0 #ffee00,
+    2px 2px 0 #ff0000;
+}
+.main-title {
+  font-size: 52px;
+  color: white;
+  margin: 0 0 20px 0;   
+  position: relative;
+  z-index: 1; 
+  font-weight: bold;
+}
+.title-card {
+  position: relative;
+  background-color: #2b1a0e;
+  padding: 80px 40px;
+  text-align: center;
+  overflow: hidden;
+  font-family: 'Georgia', serif;
+}
