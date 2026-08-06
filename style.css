@@ -1,3 +1,4 @@
+/* title card start */
 .hero-text {
     text-align: center;
     color: black ;
@@ -36,4 +37,19 @@
   text-align: center;
   overflow: hidden;
   font-family: 'Georgia', serif;
+}
+/* Title end */
+/* Laksa section */
+.laksa-column {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;   /* add spacing between the two columns */
+    align-items: start;
+}
+.laksa-column .image {
+    width: 100%;       /* fill the first column */
+}
+img {
+    width: 100%;       /* or a fixed size, but 100% of its container */
+    height: auto;
 }
