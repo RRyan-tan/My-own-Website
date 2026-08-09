@@ -43,13 +43,16 @@
 .laksa-column {
     display: grid;
     grid-template-columns: 2fr 3fr;
-    gap: 20px;   /* add spacing between the two columns */
     align-items: start;
+    
 }
 .laksa-column .image {
-    width: 100%;       /* fill the first column */
+    width: 75%;       /* fill the first column */
 }
 img {
     width: 100%;       /* or a fixed size, but 100% of its container */
     height: auto;
+}
+p{
+    font-size: 30px;
 }
