@@ -47,7 +47,7 @@
     
 }
 .laksa-column .image {
-    width: 75%;       /* fill the first column */
+    width: 90%;       /* fill the first column */
 }
 img {
     width: 100%;       /* or a fixed size, but 100% of its container */
