@@ -1,5 +1,5 @@
 body{ 
-    background-color: #2b1a0e;
+  background-color: #e4c299;
     margin: 0;
     padding: 0;
 }
@@ -47,10 +47,11 @@ body{
 /* Title end */
 /* Laksa section */
 .laksa-column {
+    margin-top: 1px;
     display: grid;
     grid-template-columns: 2fr 3fr;
     align-items: start;
-    
+    background-color: #2b1a0e;
 }
 .laksa-column .image {
     width: 90%;       /* fill the first column */
