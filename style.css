@@ -1,5 +1,5 @@
 body{ 
-  background-color: #e4c299;
+  background-color: #422815;
     margin: 0;
     padding: 0;
 }
@@ -21,7 +21,7 @@ body{
 .title-dark {
   color: #d4872b;
   font-style: italic;
-  font-size: 80px;
+  font-size: 100px;
   text-shadow: 
     -2px -2px 0 #ff0000,
     2px -2px 0 #ffa500,
@@ -29,7 +29,7 @@ body{
     2px 2px 0 #ff0000;
 }
 .main-title {
-  font-size: 52px;
+  font-size: 72px;
   color: white;
   margin: 0 0 20px 0;   
   position: relative;
@@ -54,12 +54,58 @@ body{
     background-color: #2b1a0e;
 }
 .laksa-column .image {
-    width: 90%;       /* fill the first column */
+    width: 80%;       /* fill the first column */
+    margin-left: 100px;
+    margin-top: 20px;
 }
 img {
     width: 100%;       /* or a fixed size, but 100% of its container */
     height: auto;
 }
-p{
-    font-size: 30px;
+.info p{
+    font-size: 40px;
+    color: #C4B090;  
+}
+.info h1{
+  font-size: 67px;
+  color: white;
+
+
+/* spice bar */
+}.spice {
+  width: 465px;
+  margin-left: auto;
+  margin-right: -550px;
+  margin-top: -30px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  color: #c4b090;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.title b {
+  color: #ff751f;
+}
+
+.bar {
+  height: 12px;
+  background: #2b1a14;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+.fill {
+  width: 80%;
+  height: 100%;
+  background: #ff8738;
+  border-radius: 10px;
+}
+
+.chillies {
+  margin-top: 12px;
+  font-size: 16px;
+  letter-spacing: 5px;
 }
