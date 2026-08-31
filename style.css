@@ -63,11 +63,11 @@ img {
     height: auto;
 }
 .info p{
-    font-size: 40px;
+    font-size: 30px;
     color: #C4B090;  
 }
 .info h1{
-  font-size: 67px;
+  font-size: 60px;
   color: white;
 
 
@@ -75,8 +75,9 @@ img {
 }.spice {
   width: 465px;
   margin-left: auto;
-  margin-right: -550px;
+  margin-right: -470px;
   margin-top: -30px;
+  margin-bottom: 20px;
 }
 .title {
   display: flex;
@@ -87,7 +88,7 @@ img {
 }
 
 .title b {
-  color: #ff751f;
+  color: #c53f1e;
 }
 
 .bar {
@@ -100,7 +101,7 @@ img {
 .fill {
   width: 80%;
   height: 100%;
-  background: #ff8738;
+  background: #c53f1e;
   border-radius: 10px;
 }
 
