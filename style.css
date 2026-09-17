@@ -63,7 +63,7 @@ img {
     height: auto;
 }
 .info p{
-    font-size: 30px;
+    font-size: 43px;
     color: #C4B090;  
 }
 .info h1{
@@ -109,4 +109,10 @@ img {
   margin-top: 12px;
   font-size: 16px;
   letter-spacing: 5px;
+}
+
+.nasilemak-column .nasilemakimage{
+  width: 40%;
+  margin-left: 100px;
+  margin-top: 20px;
 }
