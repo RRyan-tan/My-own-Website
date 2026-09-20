@@ -111,8 +111,16 @@ img {
   letter-spacing: 5px;
 }
 
-.nasilemak-column .nasilemakimage{
-  width: 40%;
-  margin-left: 100px;
+.nasilemak-column img{
+  width: 85%;
+  margin-left: 65px;
   margin-top: 20px;
 }
+.nasilemak-column{
+  margin-top: 1px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: start;
+  background-color: #2b1a0e;
+}
+.nasi
