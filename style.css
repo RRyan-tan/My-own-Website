@@ -138,9 +138,24 @@ img {
 .nasilemak-column .title b{
     color: #d4840b;
 }
+.charkuayteow-column{
+  margin-top: 1px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: start;
+  background-color: #2b1a0e;
+}
+.charkuayteow-column img{
+  width: 85%;
+  margin-left: 65px;
+  margin-top: 100px;
+}
 .charkuayteow-column .fill{
   width: 40%;
   height: 100%;
   background: #b4e406;
   border-radius: 10px
+}
+.charkuayteow-column .title b{
+    color: #a0c20a;
 }
