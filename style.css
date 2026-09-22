@@ -22,18 +22,12 @@ body{
   color: #d4872b;
   font-style: italic;
   font-size: 100px;
-  text-shadow: 
+  text-shadow:
     -2px -2px 0 #ff0000,
     2px -2px 0 #ffa500,
     -2px 2px 0 #ffee00,
     2px 2px 0 #ff0000;
-}
-.chillies{
-  text-shadow:
-    -1.125px -1.125px 0 #ff0000,
-    1.125px -1.125px 0 #ffa500,
-    -1.125px 1.125px 0 #ffee00,
-    1.125px 1.125px 0 #ff0000;
+
 }
 .main-title {
   font-size: 72px;
@@ -116,6 +110,11 @@ img {
   margin-top: 12px;
   font-size: 16px;
   letter-spacing: 5px;
+  text-shadow:
+  -1.125px -1.125px 0 #ff0000,
+  1.125px -1.125px 0 #ffa500,
+  -1.125px 1.125px 0 #ffee00,
+  1.125px 1.125px 0 #ff0000;
 }
 
 .nasilemak-column img{
@@ -138,4 +137,10 @@ img {
 }
 .nasilemak-column .title b{
     color: #d4840b;
+}
+.charkuayteow-column .fill{
+  width: 40%;
+  height: 100%;
+  background: #b4e406;
+  border-radius: 10px
 }
